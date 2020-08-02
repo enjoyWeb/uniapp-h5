@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "接单中心"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/my/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/my/register",
+			"style": {
+				"navigationBarTitleText": "注册认证"
+			}
+		}, {
+			"path": "pages/my/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/articleInfo/articleInfo",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "接单",
+		"navigationBarBackgroundColor": "#3688FF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#BFBFBF",
+		"selectedColor": "#3688FF",
+		"borderStyle": "white",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon-index.png",
+				"selectedIconPath": "static/icon-index-a.png",
+				"text": "接单中心"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon-my.png",
+				"selectedIconPath": "static/icon-my-a.png",
+				"text": "个人中心"
+			}
+		]
+	}
+
+}
